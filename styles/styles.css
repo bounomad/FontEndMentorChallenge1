@@ -31,11 +31,15 @@ header{
 }
 main{
     grid-area: main;
+    height: 100%;
     margin:auto;
+    display: flex;
     color: white;
 }
 aside{
     grid-area: aside;
+    display: flex;
+    align-items: center;
 }
 footer{
     grid-area: footer;
@@ -61,7 +65,7 @@ footer svg{
     fill: white;
 }
 /* Typo */
-h1, p ,a{
+h1, p{
     max-width: 80%;
     margin: auto;
 }
@@ -70,12 +74,14 @@ h1{
     font-weight: 600;
     font-size: 2rem;
 }
-p,a{
+p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1rem;
 }
-
+.txtalignV{
+    margin: auto;
+}
 /* Spacing mgt */
 aside img, main{
     margin-top: 20px;
@@ -92,7 +98,6 @@ main a{
     text-decoration: none;
     background-color: white;
     color: hsl(257, 40%, 49%);
-    margin: 10px 40px;
     padding: 10px 40px;
     border-radius: 25px 25px;
     box-shadow: 5px 3px 5px 0px hsla(0, 0%, 9%, 0.3), 
@@ -133,9 +138,13 @@ main a:hover{
    }
     main{
         margin: 0px;
+        margin: 0px;
         padding-left:10px;
         padding-right: 10px;
         text-align: center;
+    }
+    .txtalignV{
+        margin-top: 20px;
     }
     main a{
         padding: 10px 80px;
