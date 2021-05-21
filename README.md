@@ -43,7 +43,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Grid
-- CSS Flex (just for postion)
+- CSS Flex
 
 ### What I learned
 
@@ -51,7 +51,8 @@ I learned
 -how to use CSS Grid and how to change the grid to a media query in order to be responsive
 -how to add SVG file as an link & and some of its properties in order to modify its size, colors (HTML or CSS)
 -how to ensure that the background image always fill the screen whatever the ratio is.
-
+-How to vertically center content
+-Adapt content position to zoom
 
 ### Continued development
 
