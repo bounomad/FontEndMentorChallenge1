@@ -30,7 +30,6 @@ header{
     align-items: flex-end;
 }
 main{
-    max-width: 80%;
     grid-area: main;
     margin:auto;
     color: white;
@@ -62,6 +61,10 @@ footer svg{
     fill: white;
 }
 /* Typo */
+h1, p ,a{
+    max-width: 80%;
+    margin: auto;
+}
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -89,6 +92,7 @@ main a{
     text-decoration: none;
     background-color: white;
     color: hsl(257, 40%, 49%);
+    margin: 10px 40px;
     padding: 10px 40px;
     border-radius: 25px 25px;
     box-shadow: 5px 3px 5px 0px hsla(0, 0%, 9%, 0.3), 
@@ -128,7 +132,6 @@ main a:hover{
        justify-self: center;
    }
     main{
-        max-width: fit-content;
         margin: 0px;
         padding-left:10px;
         padding-right: 10px;
