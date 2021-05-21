@@ -113,6 +113,7 @@ main a:hover{
     }
     .container{
         width: auto;
+        align-content: flex-start;
         grid-template-columns: 1fr;
         grid-template-rows: .5fr 2fr 2fr 1fr;
         grid-template-areas: 
@@ -127,6 +128,7 @@ main a:hover{
        justify-self: center;
    }
     main{
+        max-width: fit-content;
         margin: 0px;
         padding-left:10px;
         padding-right: 10px;
