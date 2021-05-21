@@ -6,7 +6,7 @@ html,body{
 }
 body{
     margin: 0px 60px;
-    background: hsl(257, 40%, 49%) url("images/bg-desktop") no-repeat;
+    background: hsl(257, 40%, 49%) url("/images/bg-desktop.svg") no-repeat;
    /* Allowing the background not being crop whatever the screen ratio */
     background-size: cover; 
 }
@@ -106,7 +106,7 @@ main a:hover{
 @media screen and (max-width:800px) {
     body{
         margin: 0px 20px 0px 20px;
-        background: hsl(257, 40%, 49%) url("./images/bg-mobile") no-repeat;
+        background: hsl(257, 40%, 49%) url("./images/bg-mobile.svg") no-repeat;
         background-size:cover;
     }
     .container{
