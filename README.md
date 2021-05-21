@@ -29,13 +29,13 @@ Users should be able to:
 ### Screenshot
 
 
-![Screenshot](/screenshot/screenshot.png)
-![Screenshot_phone](/screenshot/screenshot_phone.png)
+![Screenshot](/screenshot/screenshot.jpeg?raw=true)
+![Screenshot_phone](/screenshot/screenshot_phone.jpeg?raw=true)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://bounomad.github.io/FontEndMentorChallenge1/)
 
 ## My process
 
