@@ -90,7 +90,7 @@ aside img, main{
 main p{
     margin-bottom: 40px;
 }
-footer a{
+a + a{
     margin-left: 20px;
 }
 
